@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import logo from "../assets/ConstrainLab.png";
+import logo from "../assets/constrainlab.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
