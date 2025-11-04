@@ -38,7 +38,7 @@ const Network = () => {
               </div>
             </div>
 
-            <p className="text-lg text-muted-foreground mb-8 text-justify">
+            <p className="text-base md:text-lg text-muted-foreground mb-8 text-justify">
               The Device4Constraints Network (D4C) brings together students, early-career clinicians,
               engineers, and entrepreneurs passionate about designing frugal medical technologies for
               Africa's biggest health challenges.

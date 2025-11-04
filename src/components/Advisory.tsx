@@ -40,7 +40,7 @@ const Advisory = () => {
           </div>
 
           <Card className="p-8 lg:p-12 border-primary/20 shadow-elegant mb-8">
-            <p className="text-lg text-muted-foreground mb-8 text-center">
+            <p className="text-base md:text-lg text-muted-foreground mb-8 text-center">
               ConstrainLab offers targeted advisory support to innovators, hospitals, and organizations
               developing affordable, context-appropriate technologies.
             </p>
