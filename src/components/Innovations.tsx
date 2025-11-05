@@ -93,10 +93,7 @@ const Innovations = () => {
                       <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span className="text-sm"><strong>Preferred by patients</strong> for simplicity and comfort</span>
                     </div>
-                    <div className="flex items-start gap-3 p-3 rounded-lg bg-background/60">
-                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-sm"><strong>Cost:</strong> ~$120 vs. $1,500+ for commercial systems</span>
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -168,11 +165,7 @@ const Innovations = () => {
                 </div>
 
                 {/* Status Badge */}
-                <div className="mt-6">
-                  <Badge variant="outline" className="border-accent text-accent px-4 py-2 text-sm">
-                  First-in-human trials approved (2025)
-                  </Badge>
-                </div>
+
               </div>
 
               {/* Image Box */}

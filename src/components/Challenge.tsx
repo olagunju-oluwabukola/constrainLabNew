@@ -36,15 +36,9 @@ const Challenge = () => {
               </div>
 
               <p className="text-sm md:text-lg text-muted-foreground leading-relaxed mb-4">
-                In Africa, the cost of breast cancer diagnosis can exceed treatment costs by{" "}
-                <span className="font-bold bg-gradient-to-br from-blue-950 to-blue-800 bg-clip-text text-transparent">12x</span>. Imported biopsy systems cost{" "}
-                <span className="font-bold bg-gradient-to-br from-blue-950 to-blue-800 bg-clip-text text-transparent">$15,000-$40,000</span> - putting them out of
-                reach for most healthcare facilities.
+                In many African hospitals, women with breast lumps wait weeks, or never receive an accurate diagnosis because standard biopsy devices are costly, imported, and often unavailable. As a result, late-stage presentation remains the norm, and survival rates lag far behind global averages. ConstrainLab was created to change this reality. By re-engineering the breast biopsy process through locally built, low-cost, high-performance systems, we aim to make early, accurate diagnosis accessible to every woman regardless of income or geography.
               </p>
-              <p className="text-sm md:text-lg text-muted-foreground leading-relaxed">
-                The result? Late-stage diagnoses,
-                preventable deaths, and perpetual health inequity.
-              </p>
+
             </div>
           </div>
         </Card>

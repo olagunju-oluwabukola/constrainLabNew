@@ -3,24 +3,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Microscope } from "lucide-react";
 
 const Hero = () => {
-  const [affordable, setAffordable] = useState(0);
-  const [concordance, setConcordance] = useState(0);
-  const [price, setPrice] = useState(0);
 
-  useEffect(() => {
-    const duration = 1000;
-    const startTime = performance.now();
 
-    const animate = (currentTime) => {
-      const progress = Math.min((currentTime - startTime) / duration, 1);
-      setAffordable(Math.floor(progress * 92));
-      setConcordance(Math.floor(progress * 100));
-      setPrice(Math.floor(progress * 120));
-      if (progress < 1) requestAnimationFrame(animate);
-    };
-
-    requestAnimationFrame(animate);
-  }, []);
 
   return (
     <section className="
@@ -76,26 +60,7 @@ const Hero = () => {
 
           </div>
 
-          <div className="md:mt-16 md:mb-16 grid grid-cols-3 sm:grid-cols-3 gap-8 mt-10 text-white/90">
-            <div className="animate-scale-in" style={{ animationDelay: "0.3s" }}>
-              <div className="text-xl md:text-4xl font-bold text-accent mb-2">
-                {affordable}%
-              </div>
-              <div className="text-xs md:text-sm font-semibold">More Affordable</div>
-            </div>
-            <div className="animate-scale-in" style={{ animationDelay: "0.4s" }}>
-              <div className="text-xl md:text-4xl font-bold text-accent mb-2">
-                {concordance}%
-              </div>
-              <div className="md:text-sm font-semibold text-xs">Diagnostic Concordance</div>
-            </div>
-            <div className="animate-scale-in" style={{ animationDelay: "0.5s" }}>
-              <div className="text-xl md:text-4xl font-bold text-accent mb-2">
-                ${price}
-              </div>
-              <div className="md:text-sm font-semibold text-xs">vs $1,500+ Systems</div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
