@@ -14,7 +14,7 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-           <div className="hidden md:inline-flex items-center gap-2 px-4 py-2 bg-primary  rounded-full mb-8  animate-fade-in md:mt-28">
+           <div className="hidden md:inline-flex items-center gap-2 px-4 py-2 bg-primary  rounded-full mb-8  animate-fade-in md:mt-10">
             <Microscope className="w-10 h-4 text-white" />
             <span className="text-sm font-medium text-white">
               Engineered with Purpose in Nigeria
@@ -51,7 +51,7 @@ const Hero = () => {
  <Button
               size="lg"
               variant="outline"
-              className="border-white/30 bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm transition-smooth"
+              className="border-white/30 bg-white/10 text-white hover:bg-white backdrop-blur-sm transition-smooth"
 
             >
               Join the Network

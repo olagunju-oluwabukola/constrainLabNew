@@ -32,7 +32,7 @@ const Footer = () => {
               asChild
             >
               <a
-                href="https://linkedin.com/in/akinolaodedeyi"
+                href="https://www.linkedin.com/in/akinola-odedeyi-36a3699b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"

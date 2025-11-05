@@ -61,10 +61,13 @@ const Network = () => {
                 ))}
               </div>
             </div>
-            <Button size="lg" className="bg-gradient-to-br from-blue-950 to-blue-800  text-primary-foreground shadow-glow hover:shadow-elegant transition-smooth group">
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJ9ZkprJ3CS68wDb-5XaP80R4qQ8NtgDSaMy8G0yYLE4fFDw/viewform" target="_blank" rel="noopener noreferrer">
+           <Button size="lg" className="bg-gradient-to-br from-blue-950 to-blue-800  text-primary-foreground shadow-glow hover:shadow-elegant transition-smooth group">
               Join the Network
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
+           </a>
+
           </Card>
         </div>
       </div>
