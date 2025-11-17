@@ -16,25 +16,19 @@ const Timeline = () => {
 
   const milestones = [
     {
-      year: "2022–2023",
+      year: "2024",
       title: "Concept & Testing",
       description: "Concept design and bench testing of Wide-NAB",
       icon: Microscope,
     },
-    {
-      year: "2023",
-      title: "Clinical Validation",
-      description:
-        "Randomized pilot trial: 100% diagnostic concordance achieved",
-      icon: Activity,
-    },
-    {
+      {
       year: "2024",
       title: "Grant Award",
-      description: "ARCON Seed Grant awarded for PrecisionVac development",
+      description: "ARCON Seed Grant awarded for Wide-NAB Trials",
       icon: Award,
     },
-    {
+
+     {
       year: "2025",
       title: "Animal Studies",
       description: "Successful animal validation studies completed",
@@ -42,11 +36,13 @@ const Timeline = () => {
     },
     {
       year: "2025",
-      title: "Human Trials",
-      description:
-        "First-in-human trials approved under OAUTHC Ethics Committee",
-      icon: Hospital,
+      title: "Clinical Validation",
+      description: "Randomized pilot trial: achieved 100% diagnostic concordance with standard of care",
+      icon: Activity,
     },
+
+
+
   ];
 
   return (
